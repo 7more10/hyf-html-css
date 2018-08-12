@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+<link rel="stylesheet" href="main.css type="text/css" media="screen" />
+  <title>LARP
+   </title>
+  </head>
+<body>
+  <header><strong><h1>Live Action Role-playing Games</h1></strong></header>
+  <p class="begin">On this page I would like to tell you about my hobby - live action role-playing games. It is an activity which includes elements from theater and even computer games.</p>
+  <p><img src="http://eyelarp.com/wp-content/uploads/2015/05/1210x423-ELNS10-25-Edit-2-1210x423.jpg" alt="Medieval larp"></p>
+  <ul class="begin">
+    <li><button> <a href="#what">What it actually is?</a></button></li>
+     <li><button> <a href="#when">When it all began?</a></button></li>
+    <li><button> <a href="#some">Some terminology</a></button></li>
+  <li><button><a href="#purpose">What is the purpose of this all?</a></button></li>
+     <li><button> <a href="#top">My top 5 best larp's</a></button></li>
+      <li><button> <a href="#weapon">Weapons in LARP</a></button></li>
+    <li><button> <a href="#opinion">My personal opinion</a></button></li>
+    </ul> 
+  <h2 id:"what">What it actually is?</h2>
+  <p>During a LARP (Live Action Role-playing Game) players try to portrait their character either visually or behaviourally. Everyone must follow the set of rules which has been made by the groups of masters - people who organize the game. As distinct from the scenic art or cimena, the masters can not influence the game. They create the conditions where the game can exist but the rest depends on the players.</p>
+  <h2 id:"when">When it all began?</h2>
+  <p>The first LARP was run in 1970's. It was made by fans of J.R.R.Tolkien who had played a lot of table-games before. So in fact a larp is a sort of table-game but with real location and real characters. Nowadays, the larp-genres vary: from historical eposes over vikings till cyber-punk worlds. It can be either for 20 players or 5000+ players.</p>
+  <h2 id="some">Some terminology</h2>
+  <article><div><p id="pcs" class="term"><snap>PC: playing character</snap><br><br>
+Usually a player can chose a role from the setting or just create his own character with his own history. Sometimes players have the same character for different game inside the setting and even in crossovers.</p>
+    <p id="gms" class="term"><snap>GM: game master<br><br></snap>
+Generally there is a group of master because it is almost impossible for one person to organize everything. Except the set of rules and communication with the players they are responsible for logistics, financies, advertising and other stuff. </p>
+    <p id="npcs" class="term"><snap>NPC: non-playing character</snap><br><br>
+Basically it is a group of peple who helps masters to play low-level characters which are essential parts of the world. As example, dementors and house-elves in the Harry Potter world are played by NPs when they are needed in the game.</p></div></article>
+  <h2 id="purpose">What is the purpose of this all?</h2>
+  <p>First of all, entertainment. Creating your character, buying special clothes, communicating with other inspired players gives you a lot of fun. Many people find truly friends and even beloved ones in larp-communities.<br><br>
+Some players consider larp as an dramatic act where they can discover their talents and feel themselves as professional actors with a bunch of flexibility.<br><br> 
+Larp's can be also used for educational and political reasons. They are dynamically used for that purposes in scandinavian schools what is very useful either for students or for teachers.</p>
+  <h2 id="top">My top 5 best larp's</h2>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>name:</th>
+          <th>setting:</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="http://www.cowlarp.com">College of Wizardry</a>
+          </td>
+          <td>Harry Potter</td>
+          </tr>
+        <tr>
+          <td><a href="http://www.hp-ekb.ru">Hogwarts' seasons</a>
+          </td>
+          <td>Harry Potter</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.witcherschool.com/en/home/">The Witcher School</a>
+          </td>
+          <td>The Witcher</td>
+        </tr>
+         <tr>
+          <td><a href=" https://www.fmlarp.com/">Fairweather Manor</a>
+          </td>
+          <td>Downton Abbey</td>
+        </tr>
+         <tr>
+          <td><a href=" https://www.dziobak.studio/convention-of-thorns">Convention of Thorns</a>
+          </td>
+          <td>The World of Darkness</td>
+        </tr>
+      </tbody>
+  </table>
+    </div>
+  <h2 id="weapon">Weapons in LARP</h2>
+  <p>For many larps simulated weapons are used because of safety. A magic wand from HP is not able to give you any harm. But swords, bows and arrows can definetely harm you. That is why the are made of foam, plastic of wood. Before you may use them in the game they must be "chipped" by the masters. Otherwise, they are not allowed to be used.</p>
+  <h2 id="opinion">My personal opinion</h2>
+  <p>In a larp you may be just an abserver of play a significant role. In depends on you and your purposes. But the most important is that the masters and the players both co-create the game. People of any gender, nationality, religion of sexual orientation can find their places in a lapr and try to fit many other social roles what I personally find an amazing experience.</p>
+  <footer> Alek, with peace and love!</footer>
+ </body 
