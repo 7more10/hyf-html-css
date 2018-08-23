@@ -6,7 +6,7 @@
 }
 #grid-floats > li,ul#grid-flex > li {
   float: left;
-  width: 18%;
+  width: 20%;
   height: 550px;
   padding: 10px;
   border: 1px solid;
@@ -25,8 +25,11 @@ img {
   margin-left: auto;
   border: 2px solid #00008B;
 }
+img:hover {
+  width: 100%;
+}
 #grid-floats :first-child {
-  width: 40%;
+  width: 44%;
 }
 ul {
   list-style: none;
@@ -36,13 +39,10 @@ ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 #grid-flex :first-child {
-  width: 40%;
-}
-li {
-  position: center;
+  width: 44%;
 }
 h1 {
   text-align: center;
@@ -70,48 +70,51 @@ h3 {
   background: #462066;
   box-shadow: 0 0 30px #462066;
 }
-#grid-floats {
-  margin-left: 9%;
-}
+
 p {
   background: #00AAA0;
 }
 
 
 @media only screen 
-  and (min-width: 320px)
   and (max-width: 500px) {
+    * {
+      margin: 0;
+    }
     #grid-floats > li {
-      width: 50%;
-      height: auto;
+      width: 48%;
+      height: 25px;
     }
     #grid-floats :first-child {
-      width: 100%;
+      width: 98%;
     }
     ul#grid-flex > li {
-      width: 50%;
-      height: auto;
+      width: 48%;
+      height: 25px;
     }
     #grid-flex :first-child {
-      width: 100%;
+      width: 98%;
     }
 }
 
 @media only screen 
   and (min-width: 501px)
   and (max-width: 900px) {
+    * {
+      margin: 0;
+    }
     #grid-floats > li {
-      width: 33%;
-      height: auto;
+      width: 32%;
+      height: 45;
     }
     #grid-floats :first-child {
-      width: 50%;
+      width: 48%;
     }
     ul#grid-flex > li {
-      width: 33%;
+      width: 32%;
       height: auto;
     }
     #grid-flex :first-child {
-      width: 50%;
+      width: 48%;
     }
 }
