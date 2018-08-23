@@ -82,18 +82,16 @@ p {
       margin: 0;
     }
     #grid-floats > li {
-      width: 48%;
-      height: 25px;
+      width: 40%;
     }
     #grid-floats :first-child {
-      width: 98%;
+      width: 80%;
     }
     ul#grid-flex > li {
-      width: 48%;
-      height: 25px;
+      width: 40%;
     }
     #grid-flex :first-child {
-      width: 98%;
+      width: 80%;
     }
 }
 
