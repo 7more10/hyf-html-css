@@ -48,7 +48,22 @@ h1 {
   text-align: center;
   font-size: 6em;
   text-shadow: 4px 3px 2px black;
-  
+  animation-name: colorchange;   
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-name: colorchange; 
+}
+@keyframes colorchange {
+    from { font-size: 50%; }
+    to { font-size: 500%; }
+}
+@-webkit-keyframes colorchange {
+    from { font-size: 50%; }
+    to { font-size: 500%; }
 }
 h2 {
   text-align: center;
@@ -78,20 +93,22 @@ p {
 
 @media only screen 
   and (max-width: 500px) {
-    body {
+    * {
       margin: 0;
     }
     #grid-floats > li {
-      width: 35%;
+      width: 48%;
+      height: 25px;
     }
     #grid-floats :first-child {
-      width: 80%;
+      width: 98%;
     }
     ul#grid-flex > li {
-      width: 35%;
+      width: 48%;
+      height: 25px;
     }
     #grid-flex :first-child {
-      width: 80%;
+      width: 98%;
     }
 }
 
