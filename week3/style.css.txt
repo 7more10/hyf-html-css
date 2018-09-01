@@ -1,0 +1,89 @@
+* {
+ font-family: "RO Sans", Calibri, sans-serif;
+ font-size: 20px;
+  margin: 4px;
+  padding: 3px;
+}
+
+header {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #000080;
+  color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.goriz li {
+  float: right;
+}
+aside {
+  float: right;
+}
+article {
+  background-image: url(https://www.rijksoverheid.nl/binaries/large/content/gallery/rijksoverheid/attentie-afbeeldingen/onderwerpen/s/schoolvakantie.jpg);
+  background-repeat: round;
+}
+#fourgridlist {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  background-color: #E6E6FA;  
+}
+.threegridlist {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+#divfooter {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+#voornl {
+  flex-grow: 2;
+}
+footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+li {
+  list-style-type: none;
+  margin: 4px;
+}
+#divfooter, .goriz {
+  color: white;
+  background-color: #000080;
+}
+
+#mainul {
+  background-color: white;
+  width: 40%;
+  margin: 3%;
+  font-weight: bold;
+}
+a:link {
+  color: grey;
+  text-decoration: none;
+}
+a:visited {
+  color: grey;
+}
+a:active {
+  text-decoration: underline; 
+  border: 1px solid yellow;
+}
+a:hover {
+  text-decoration: underline;
+}
+h2 {
+  color: #0000FF;
+  font-size: 1.5em;
+}
