@@ -108,4 +108,10 @@ h2 {
   #divfooter {
     flex-flow: wrap;
   }
+ h2 {
+  font-size: smaller;
+ }
+ #mainul {
+  width: 100%;
+ }
 }
