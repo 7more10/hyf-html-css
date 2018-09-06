@@ -92,6 +92,7 @@ h2 {
  
  * {
   margin: 0%;
+  font-size: 80%;
  }
  
   #fourgridlist {
@@ -113,12 +114,12 @@ h2 {
     flex-flow: wrap;
   }
  h2 {
-  font-size: smaller;
+  font-size: 1em;
  }
  #mainul {
-  width: 100%;
+  width: 900%;
  }
  img {
-  width: 90%;
+  width: 95%;
  }
 }
