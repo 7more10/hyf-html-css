@@ -92,11 +92,11 @@ h2 {
  
  * {
   margin: 0%;
-  font-size: 80%;
  }
  
   #fourgridlist {
     grid-template-columns: 50% 50%;
+   font-size: 90%;
   }
   
   .threegridlist {
