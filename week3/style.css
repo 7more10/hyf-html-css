@@ -90,6 +90,10 @@ h2 {
 
 @media only screen and (max-width: 479px) {
  
+ * {
+  margin: 0%;
+ }
+ 
   #fourgridlist {
     grid-template-columns: 50% 50%;
   }
