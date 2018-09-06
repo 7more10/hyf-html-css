@@ -29,7 +29,7 @@ aside {
 }
 article {
   background-image: url(https://www.rijksoverheid.nl/binaries/large/content/gallery/rijksoverheid/attentie-afbeeldingen/onderwerpen/s/schoolvakantie.jpg);
-  background-repeat: round;
+  background-repeat: no-repeat;
 }
 #fourgridlist {
   display: grid;
