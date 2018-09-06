@@ -87,3 +87,24 @@ h2 {
   color: #0000FF;
   font-size: 1.5em;
 }
+
+@media screen and (max-width: 479px) {
+  #fourgridlist {
+    grid-template-columns: 50% 50%;
+  }
+  
+  .threegridlist {
+    grid-template-columns: 100%;
+  }
+  
+  nav {
+    flex-flow: wrap;
+    padding: 0%;
+  }
+  aside {
+    float: top;
+  }
+  #divfooter {
+    flex-flow: wrap;
+  }
+}
